@@ -5,12 +5,12 @@
     "name": "laravel-sqlite",
     "annotations": {
       "openshift.io/display-name": "Laravel",
-      "description": "An example Laravel application with a SQLite database. For more information about using this template, including OpenShift considerations, see https://github.com/luciddreamz/laravel-ex/blob/master/readme.md.\n\nWARNING: Any data stored will be lost upon pod destruction. Only use this template for testing.",
+      "description": "An example Laravel application with a SQLite database. For more information about using this template, including OpenShift considerations, see https://github.com/wozhsn/laravel-openshift/blob/master/readme.md.\n\nWARNING: Any data stored will be lost upon pod destruction. Only use this template for testing.",
       "tags": "quickstart,php,laravel",
       "iconClass": "icon-laravel"
     }
   },
-  "message": "The following service(s) have been created in your project: ${NAME}.\n\nFor more information about using this template, including OpenShift considerations, see https://github.com/luciddreamz/laravel-ex/blob/master/readme.md.",
+  "message": "The following service(s) have been created in your project: ${NAME}.\n\nFor more information about using this template, including OpenShift considerations, see https://github.com/wozhsn/laravel-openshift/blob/master/readme.md.",
   "labels": {
     "template": "laravel-sqlite"
   },
@@ -225,7 +225,7 @@
     "name": "SOURCE_REPOSITORY_URL",
     "displayName": "Git Repository URL",
     "description": "The URL of the repository with your application source code.",
-    "value": "https://github.com/luciddreamz/laravel-ex.git",
+    "value": "https://github.com/wozhsn/laravel-openshift.git",
     "required": true
   }, {
     "name": "SOURCE_REPOSITORY_REF",

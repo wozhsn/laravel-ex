@@ -1,8 +1,8 @@
-Laravel 5.2 Quickstart on OpenShift
+Laravel 5.5 Quickstart on OpenShift
 ===================================
 [Laravel](http://laravel.com/) is a free, open source PHP web application framework, designed for the development of model–view–controller (MVC) web applications.
 
-This quickstart was created to make it easy to get started with Laravel 5.2 on OpenShift v3.
+This quickstart was created to make it easy to get started with Laravel 5.5 on OpenShift v3.
 
 The simplest way to install this application is to use the OpenShift quickstart template. To install the quickstart, follow [these directions](#installation).
 
@@ -15,17 +15,17 @@ The simplest way to install this application is to use the OpenShift quickstart 
 3. Add the Laravel template(s) to your project:
 
     ```
-    $ oc create -f https://raw.githubusercontent.com/luciddreamz/laravel-ex/master/openshift/templates/laravel-mysql.json
+    $ oc create -f https://raw.githubusercontent.com/wozhsn/laravel-openshift/master/openshift/templates/laravel-mysql.json
     ```
     or
 
     ```
-    $ oc create -f https://raw.githubusercontent.com/luciddreamz/laravel-ex/master/openshift/templates/laravel-postgresql.json
+    $ oc create -f https://raw.githubusercontent.com/wozhsn/laravel-openshift/master/openshift/templates/laravel-postgresql.json
     ```
     or
 
     ```
-    $ oc create -f https://raw.githubusercontent.com/luciddreamz/laravel-ex/master/openshift/templates/laravel-sqlite.json
+    $ oc create -f https://raw.githubusercontent.com/wozhsn/laravel-openshift/master/openshift/templates/laravel-sqlite.json
     ```
 
 4. Fork this GitHub repo
@@ -71,7 +71,7 @@ Next, run `oc status` to confirm that an updated deployment has been kicked off.
 
 For more information on environment variables impacting PHP behavior on OpenShift, see the [PHP 5.6 builder image](https://github.com/sclorg/s2i-php-container/tree/master/5.6#environment-variables).
 
-For more information on Laravel environment variables, see the [Laravel environment configuration documentation](https://laravel.com/docs/5.2/configuration#environment-configuration).
+For more information on Laravel environment variables, see the [Laravel environment configuration documentation](https://laravel.com/docs/5.5/configuration#environment-configuration).
 
 ### Log Files ###
 Your application is configured to use the OpenShift log directory. You can use the `oc logs` command to stream the latest log file entries from your running pod:
@@ -87,4 +87,4 @@ $ oc logs laravel-mysql-example-1-hj2k1
 To stop tailing the logs, press *Ctrl + c*.
 
 ## Additional Resources ##
-Documentation for the Laravel framework can be found on the [Laravel website](http://laravel.com/docs). Check out OpenShift's [Documentation](https://docs.openshift.com/online/using_images/s2i_images/php.html) for help running PHP on OpenShift.
+Documentation for the Laravel framework can be found on the [Laravel website](https://laravel.com/docs). Check out OpenShift's [Documentation](https://docs.openshift.com/online/using_images/s2i_images/php.html) for help running PHP on OpenShift.
